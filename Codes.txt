@@ -1,0 +1,12 @@
+These are the codes that I have discovered by hunting for Kolmogorov complexity. All of the values are written in hexadecimal and represent a UTF-8 character that can easily be translated with xxd. Currently, 8 values are known for this program and so far, they have taken exponentially more time to find. (I am working on an eighth and it may take up to a month of CPU and longer if interrupted.)
+
+00: .
+01: +.
+02: ++.
+03: +++.
+04: ++++.
+05: +++++.
+06: ++++++.
+07: +++++++.
+
+You may have noticed that there is no difference and we keep on adding more pluses. I am not cheating; these are the best possible solutions that run quickly. But, when does this pattern end? I don't know exactly, but by trying BF emulators, I am pretty sure that it will stop before character 15 (character 21 in decimal) because of the way the program works. I will keep going, even after this pattern is broken.
