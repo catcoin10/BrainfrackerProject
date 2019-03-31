@@ -1,0 +1,9 @@
+This is a time bounded Kolmogorov complexity project. It is using the Brainfuck programming language and is "fracking" strings. Each string is derived from a decimal number that is converted into base8 (octal), the language that Brainfuck the programming language that I am using because of its minimalism and Turing completeness.
+
+How it works:
+
+1. A string is given by the user.
+2. The program sets a dummy value for the string that we are trying to test for.
+3. The program tests the program var/n (the number file) says it needs to test. This number is by default 0.
+4. If the output of that program is equal to the string given, we exit.
+5. If the condition in step 4 is not met, we go gack to step 3 and repeat until the condition is met.
